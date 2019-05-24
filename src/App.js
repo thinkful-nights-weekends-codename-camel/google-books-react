@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import SearchForm from "./SearchForm/SearchForm";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <header className="App-header">
         <h1>Google Book Search</h1>
       </header>
+      <SearchForm />
     </div>
   );
 }
